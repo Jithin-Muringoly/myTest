@@ -1,0 +1,36 @@
+{
+  "name": "testRepo",
+  "version": "1.0",
+  "description": "test repo for testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jithin-Muringoly/myTest.git"
+  },
+  "author": "jithin",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://bitbucket.org/codefactory-au/qlik-qommentary-client#readme",
+  "devDependencies": {
+    "@after-work.js/aw": "^5.1.3",
+    "babel-core": "^6.26.3",
+    "babel-plugin-istanbul": "^5.1.0",
+    "extend": "^3.0.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-html-build": "^0.7.1",
+    "grunt-shell": "^2.1.0",
+    "protractor": "^5.4.2",
+    "text": "github:requirejs/text"
+  },
+  "dependencies": {
+    "leonardo-ui": "^1.4.0"
+  }
+}
